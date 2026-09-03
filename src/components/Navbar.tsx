@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Phone, Menu, X, Globe, Sun, Type } from 'lucide-react';
 import { Language, NavPage, FontScale } from '../types';
 import { FACILITY_INFO, TRANSLATIONS } from '../data/content';
+import logo from '../assets/logo.png';
 
 interface NavbarProps {
   currentPage: NavPage;
@@ -89,7 +90,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <div className="w-9 h-9 sm:w-11 sm:h-11 flex items-center justify-center shrink-0">
   <img
-    src="/src/assets/logo.png"
+   src={logo}
     alt="Nuevo Amanecer Tampa LLC"
     className="w-full h-full object-contain"
   />
