@@ -88,7 +88,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             id="brand-logo-btn"
             className="flex items-center gap-2 sm:gap-3 text-left group focus:outline-none focus:ring-2 focus:ring-[#4A5D4E]/30 rounded-lg p-1 transition-transform min-w-0"
           >
-            <div className="w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center shrink-0">
+            <div className="w-9 h-9 sm:w-11 sm:h-11 flex items-center justify-center shrink-0">
   <img
    src={logo}
     alt="Nuevo Amanecer Tampa LLC"
