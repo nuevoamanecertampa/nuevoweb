@@ -137,7 +137,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ setCurrentPage, lang }) => {
                         ? 'Instalación de Vida Asistida Nuevo Amanecer Tampa en 7405 Aripeka Dr'
                         : 'Nuevo Amanecer Tampa Assisted Living Facility residential home at 7405 Aripeka Dr'
                     }
-                    className="w-full h-[380px] sm:h-[460px] object-cover"
+                    className="w-full h-[340px] sm:h-[420px] object-cover"
                   />
                   {/* Subtle, elegant facility caption strip at bottom */}
                   <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#2C332D]/90 via-[#2C332D]/40 to-transparent pt-8 pb-4 px-5 flex items-center justify-between text-xs text-white">
