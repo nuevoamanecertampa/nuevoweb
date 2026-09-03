@@ -14,7 +14,7 @@ import {
 import { Language, NavPage } from '../types';
 import { FACILITY_INFO, TRANSLATIONS } from '../data/content';
 import heroImage from '../assets/hero image.png';
-import careImage from '../assets/care image.png';
+import careImage from '../assets/care image.jpg';
 
 interface HomeViewProps {
   setCurrentPage: (page: NavPage) => void;
