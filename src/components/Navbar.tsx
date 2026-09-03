@@ -87,9 +87,13 @@ export const Navbar: React.FC<NavbarProps> = ({
             id="brand-logo-btn"
             className="flex items-center gap-2 sm:gap-3 text-left group focus:outline-none focus:ring-2 focus:ring-[#4A5D4E]/30 rounded-lg p-1 transition-transform min-w-0"
           >
-            <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-[#4A5D4E] flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform duration-200 shrink-0">
-              <span className="text-white font-serif text-lg sm:text-xl italic font-bold">N</span>
-            </div>
+            <div className="w-9 h-9 sm:w-11 sm:h-11 flex items-center justify-center shrink-0">
+  <img
+    src="/src/assets/logo.png"
+    alt="Nuevo Amanecer Tampa LLC"
+    className="w-full h-full object-contain"
+  />
+</div>
             <div className="flex flex-col min-w-0">
               <span className="block font-serif text-[15px] sm:text-lg md:text-xl font-bold tracking-tight text-[#4A5D4E] group-hover:text-[#3D4C40] transition-colors leading-tight whitespace-nowrap">
                 Nuevo Amanecer
