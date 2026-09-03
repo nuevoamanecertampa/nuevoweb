@@ -13,6 +13,8 @@ import {
 } from 'lucide-react';
 import { Language, NavPage } from '../types';
 import { FACILITY_INFO, TRANSLATIONS } from '../data/content';
+import heroImage from '../assets/hero image.jpg';
+import careImage from '../assets/care image.jpg';
 
 interface HomeViewProps {
   setCurrentPage: (page: NavPage) => void;
@@ -129,9 +131,9 @@ export const HomeView: React.FC<HomeViewProps> = ({ setCurrentPage, lang }) => {
               <div className="relative">
                 <div className="relative rounded-[36px] sm:rounded-[40px] overflow-hidden shadow-2xl border-[8px] sm:border-[12px] border-white bg-[#EAE7E0]">
                   <img
-                    src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
-                    alt={
-                      lang === 'es'
+  src={heroImage}
+  alt={
+    lang === 'es'
                         ? 'Instalación de Vida Asistida Nuevo Amanecer Tampa en 7405 Aripeka Dr'
                         : 'Nuevo Amanecer Tampa Assisted Living Facility residential home at 7405 Aripeka Dr'
                     }
@@ -501,7 +503,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ setCurrentPage, lang }) => {
             <div className="lg:col-span-5">
               <div className="rounded-[28px] overflow-hidden border-[8px] border-white shadow-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
+                  src={careImage}
                   alt={
                     lang === 'es'
                       ? 'Ambiente cálido y respetuoso en Nuevo Amanecer Tampa'
