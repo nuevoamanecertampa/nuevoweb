@@ -527,83 +527,33 @@ export const TRANSLATIONS = {
 
 export const GALLERY_ITEMS: GalleryImage[] = [
   {
-    id: 'home-exterior',
-    title: 'Tampa Facility Residential Home',
-    description: 'Our quiet single-story residential home at 7405 Aripeka Dr, surrounded by Florida greenery.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Front exterior of Nuevo Amanecer Tampa residential assisted living home',
+    id: 'birthday',
+    title: 'Celebrating Birthdays',
+    imageUrl: birthdayImage,
+    alt: 'Residents celebrating a birthday together at Nuevo Amanecer Tampa',
   },
   {
-    id: 'living-room',
-    title: 'Comfortable Living Room',
-    description: 'Bright, welcoming living room with cozy armchairs for conversations and relaxation.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Bright, comfortable living room with soft armchairs and warm homelike atmosphere',
+    id: 'christmas',
+    title: 'Celebrating the Holidays',
+    imageUrl: christmasImage,
+    alt: 'Residents celebrating Christmas together at Nuevo Amanecer Tampa',
   },
   {
-    id: 'bedroom-cozy',
-    title: 'Private Resident Bedroom',
-    description: 'Personalized, calm bedroom space with comfortable bedding and ample natural light.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Spacious and serene resident bedroom with warm wooden accents and ample natural light',
+    id: 'dominos',
+    title: 'Games & Recreation',
+    imageUrl: dominosImage,
+    alt: 'Residents enjoying a game of dominoes together at Nuevo Amanecer Tampa',
   },
   {
-    id: 'dining-area',
-    title: 'Family-Style Dining Room',
-    description: 'Where residents gather three times daily to enjoy nutritious, freshly prepared meals.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Inviting family dining table set for home-cooked meals in a bright dining area',
+    id: 'eating',
+    title: 'Sharing Meals Together',
+    imageUrl: eatingImage,
+    alt: 'Residents sharing a meal together at Nuevo Amanecer Tampa',
   },
   {
-    id: 'outdoor-patio',
-    title: 'Sunlit Patio & Garden Setting',
-    description: 'Shaded outdoor seating to enjoy the morning breeze and Florida sunshine.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Shaded garden patio with potted plants and comfortable outdoor chairs for residents',
-  },
-  {
-    id: 'kitchen-warm',
-    title: 'Home Kitchen & Meal Prep',
-    description: 'Clean, open kitchen where wholesome home-cooked meals and snacks are prepared daily.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Clean, warm residential kitchen space where daily meals are prepared with care',
-  },
-  {
-    id: 'activities-games',
-    title: 'Games & Daily Companionship',
-    description: 'Friendly conversations, puzzles, dominoes, and relaxing group activities.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Caregiver and resident enjoying friendly conversation and social connection',
-  },
-  {
-    id: 'caring-connection',
-    title: 'Respectful, Compassionate Care',
-    description: 'Gentle, supportive presence ensuring every resident feels secure and cherished.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Caregiver holding senior resident hand with warmth, dignity, and compassion',
-  },
-  {
-    id: 'reading-nook',
-    title: 'Quiet Reading & Rest Corner',
-    description: 'Peaceful corner with soft natural light, perfect for afternoon reading or resting.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Cozy armchair near a sunny window in a quiet homelike corner',
-  },
-  {
-    id: 'peaceful-morning',
-    title: 'Morning Garden Walkway',
-    description: 'Peaceful garden pathways and fresh air to start each day with calm energy.',
-    imageUrl:
-      'https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80',
-    alt: 'Peaceful garden sitting area bathed in soft morning sunlight',
+    id: 'together',
+    title: 'Moments Together',
+    imageUrl: togetherImage,
+    alt: 'Residents enjoying time together at Nuevo Amanecer Tampa',
   },
 ];
