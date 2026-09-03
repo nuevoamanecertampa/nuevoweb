@@ -131,7 +131,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ setCurrentPage, lang }) => {
               <div className="relative">
                 <div className="relative rounded-[36px] sm:rounded-[40px] overflow-hidden shadow-2xl border-[8px] sm:border-[12px] border-white bg-[#EAE7E0]">
                   <img
-  src={careImage}
+  src={heroImage}
   alt={
     lang === 'es'
                         ? 'Instalación de Vida Asistida Nuevo Amanecer Tampa en 7405 Aripeka Dr'
