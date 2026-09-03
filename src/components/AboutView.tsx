@@ -10,6 +10,7 @@ import {
   ExternalLink,
 } from 'lucide-react';
 import { Language, NavPage } from '../types';
+import heroImage from '../assets/hero image.png';
 import { FACILITY_INFO, TRANSLATIONS } from '../data/content';
 
 interface AboutViewProps {
@@ -114,11 +115,11 @@ export const AboutView: React.FC<AboutViewProps> = ({ setCurrentPage, lang }) =>
 
             <div className="lg:col-span-5">
               <div className="rounded-[28px] overflow-hidden border-[8px] border-white shadow-xl">
-                <img
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
-                  alt="Living spaces at Nuevo Amanecer Tampa"
-                  className="w-full h-80 object-cover"
-                />
+               <img
+  src={heroImage}
+  alt="Nuevo Amanecer Tampa at 7405 Aripeka Dr"
+  className="w-full h-80 object-cover"
+/>
               </div>
             </div>
           </div>
