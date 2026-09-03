@@ -13,8 +13,8 @@ import {
 } from 'lucide-react';
 import { Language, NavPage } from '../types';
 import { FACILITY_INFO, TRANSLATIONS } from '../data/content';
-import heroImage from '../assets/hero image.jpg';
-import careImage from '../assets/care image.jpg';
+import heroImage from '../assets/hero image.png';
+import careImage from '../assets/care image.png';
 
 interface HomeViewProps {
   setCurrentPage: (page: NavPage) => void;
