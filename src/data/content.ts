@@ -1,4 +1,9 @@
 import { GalleryImage, ServiceCard } from '../types';
+import birthdayImage from '../assets/birthday.jpeg';
+import christmasImage from '../assets/christmas.jpeg';
+import dominosImage from '../assets/dominos.jpeg';
+import eatingImage from '../assets/eating.jpeg';
+import togetherImage from '../assets/together.jpeg';
 
 export const FACILITY_INFO = {
   name: 'Nuevo Amanecer Tampa LLC',
